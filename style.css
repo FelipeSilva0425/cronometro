@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgba(255, 0, 0, 0.835);
+  --primary-color-darker: rgba(96, 1, 1, 0.886);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: url('./assets/pessoas\ correndoimg.avif');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+._container {
+  width: 300px;
+  height: 300px;
+  margin: 150px auto;
+  background: rgba(255, 255, 255, 0.438);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: auto;
+  justify-content: auto;
+}
+
+._timer {
+  display: block;
+  align-items: auto;
+  justify-content: auto;
+}
+
+h1 {
+  color: black;
+  display: auto;
+}
+
+h1 img {
+  width: 70px;
+  height: 70px;
+  margin-left: 50px;
+  
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: rgb(192, 192, 192);
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button {
+  background-color: var(--primary-color-darker);
+  color: rgba(255, 255, 255);
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: rgba(68, 68, 4, 0);
+  color: rgba(206, 24, 24, 0.986);
+  font-weight: bolder;
+  transition: 1s;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+.relogio {
+  font-size: 3em;
+  color: black;
+}
+
+.pausado {
+  color: rgba(238, 11, 11, 0.884);
+
+}
+@media screen and (max-width: 969px) {
+  body {
+      height: auto;
+      width: auto;
+  }
+@media screen and (max-width: 414px) {
+  body {
+      height: auto;
+      width: auto;
+  }
+
+
+@media screen and (max-width: 375px) {
+  body {
+      width: auto;
+  }
+}
