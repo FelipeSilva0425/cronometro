@@ -1,5 +1,9 @@
 # cronometro
-<a href="./assets/tela-pc -cronometro.PNG"><img src="teladecelularcronometro.PNG" title="source: " /></a>
+ <img src="./assets/tela-pc -cronometro.PNG">
+  <h4>Tela para dispositivo móvel::<h4>
+   <img src="./assets/tela de celular cronometro.PNG">
+  <br>
+<button><a href="https://projeto-cronometro-timer.netlify.app">Clique aqui para ver projeto publicado!</button>
 
 # ⏱️ Meu Crônometro.
 > Esse repositório tem como objetivo principal de apresentar meus estudos e aplicar em projetos pessoias.
@@ -32,4 +36,6 @@ A lógica do cronômetro é relativamente simples. Precisamos registrar quando o
 Conclusão
 Desenvolver um cronômetro com HTML, CSS e JavaScript é um projeto interessante que combina estruturação web com lógica de programação, me vejo en cosntante eviolução nos meus aprendizados e cada vez me desafiando mais e mais e cada vez amando mais e mais o que eu faço a cada repositorio e acada projeto escrito.
  Com essas três tecnologias,nos conseguimos  criar um cronômetro funcional que pode ser usado em uma variedade de contextos. em breve quem sabe não desenvolver um outro projeto ou aprimorar este aqui com alarmes, design e adicionar outros recursos. 
+
+
 
