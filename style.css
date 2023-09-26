@@ -20,7 +20,7 @@ body {
 ._container {
   width: 300px;
   height: 300px;
-  margin: 150px auto;
+  margin: 300px auto;
   background: rgba(255, 255, 255, 0.438);
   padding: 20px;
   border-radius: 10px;
@@ -103,7 +103,7 @@ form button:hover {
   color: rgba(238, 11, 11, 0.884);
 
 }
-@media screen and (max-width: 969px) {
+@media screen (min-width: 414px) and (max-width: 896px) {
   body {
       height: auto;
       width: auto;
